@@ -5,6 +5,12 @@ This module manages mysql on Linux (RedHat/Debian) distros. A native mysql provi
 Pluginsync needs to be enabled for this module to function properly.
 Read more about pluginsync in our [docs](http://docs.puppetlabs.com/guides/plugins_in_modules.html#enabling-pluginsync)
 
+## Changelog
+
+2013-01-28
+
+  * modified default values set in my.cnf.erb template
+
 ## Description
 
 This module uses the fact osfamily which is supported by Facter 1.6.1+. If you do not have facter 1.6.1 in your environment, the following manifests will provide the same functionality in site.pp (before declaring any node):
